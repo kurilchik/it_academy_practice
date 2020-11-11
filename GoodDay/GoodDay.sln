@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodDay", "GoodDay\GoodDay.csproj", "{ADD87251-6E4A-456E-9247-25B8E555184E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GoodDay", "GoodDay\GoodDay.csproj", "{ADD87251-6E4A-456E-9247-25B8E555184E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LettersCount", "LettersCount\LettersCount.csproj", "{616E3773-8BB3-4F20-82F3-1F80AD14F463}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{ADD87251-6E4A-456E-9247-25B8E555184E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADD87251-6E4A-456E-9247-25B8E555184E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADD87251-6E4A-456E-9247-25B8E555184E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616E3773-8BB3-4F20-82F3-1F80AD14F463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616E3773-8BB3-4F20-82F3-1F80AD14F463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616E3773-8BB3-4F20-82F3-1F80AD14F463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616E3773-8BB3-4F20-82F3-1F80AD14F463}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
