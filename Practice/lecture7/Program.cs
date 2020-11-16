@@ -8,6 +8,7 @@ namespace lecture7
         {
             EmptyArray();
             SumArray();
+            MaxValue();
 
             static void EmptyArray()
             {
@@ -29,6 +30,25 @@ namespace lecture7
                 {
                     Console.WriteLine(item);
                 }
+            }
+
+            static void MaxValue()
+            {
+                int[] nums = new int[13];
+                Random random = new Random();
+
+                for (int i = 0; i < nums.Length; i++)
+                {
+                    nums[i] = random.Next(0, 100);
+                }
+
+                foreach (var item in nums)
+                {
+                    Console.WriteLine(item);
+                }
+
+                Array.Sort(nums);
+                Console.WriteLine($"Max value: {nums[nums.Length - 1]}");
             }
         }
     }
