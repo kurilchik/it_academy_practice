@@ -9,6 +9,7 @@ namespace lecture7
             EmptyArray();
             SumArray();
             MaxValue();
+            GetType();
 
             static void EmptyArray()
             {
@@ -49,6 +50,16 @@ namespace lecture7
 
                 Array.Sort(nums);
                 Console.WriteLine($"Max value: {nums[nums.Length - 1]}");
+            }
+
+            static void GetType()
+            {
+                sbyte num = 0;
+                object exampleBoxing = num;
+                sbyte exampleUnboxing = (sbyte)exampleBoxing;
+
+                Console.WriteLine(exampleUnboxing.GetType());
+                Console.WriteLine(exampleUnboxing);
             }
         }
     }
