@@ -11,7 +11,11 @@ namespace Motorcycle
         public int Vin
         {
             get { return _vin; }
-            set { _vin = value; }
+            private set
+            {
+                Guid g = Guid.NewGuid();
+                _vin = g; 
+            }
         }
 
         private int _model;
@@ -43,10 +47,16 @@ namespace Motorcycle
         public int Mileage
         {
             get { return _mileage; }
-            set { _mileage = value; }
+            set
+            {
+                if (value <= 100)
+                    _mileage = value;
+                else
+                {
+                    Console.WriteLine("Enter less 100.");
+                    return;
+                }
+            }
         }
-
-
-
     }
 }
