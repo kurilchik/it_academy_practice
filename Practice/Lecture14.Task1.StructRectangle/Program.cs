@@ -19,6 +19,16 @@ namespace Lecture14.Task1.StructRectangle
             {
                 Console.WriteLine($"height: {rectangles[i].height} x width: {rectangles[i].width}");
             }
+
+            int sum = 0;
+
+            for (int i = 1; i < rectangles.Length; i++)
+            {
+                if (rectangles[i].height.Equals(rectangles[0].height) && rectangles[i].width.Equals(rectangles[0].width))
+                    sum += 1;
+            }
+
+            Console.WriteLine($"Duplicates: {sum}");
         }
     }
 }
