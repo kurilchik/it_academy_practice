@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Motorcycle", "Motorcycle\Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture14.Task2.Boxing", "Lecture14.Task2.Boxing\Lecture14.Task2.Boxing.csproj", "{95DC8EA4-059C-42D7-927D-2C00192AC9D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture14.Task1.StructRectangle", "Lecture14.Task1.StructRectangle\Lecture14.Task1.StructRectangle.csproj", "{42761F51-D1A5-46BD-B8B0-43D4822536B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{95DC8EA4-059C-42D7-927D-2C00192AC9D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95DC8EA4-059C-42D7-927D-2C00192AC9D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95DC8EA4-059C-42D7-927D-2C00192AC9D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42761F51-D1A5-46BD-B8B0-43D4822536B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42761F51-D1A5-46BD-B8B0-43D4822536B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42761F51-D1A5-46BD-B8B0-43D4822536B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42761F51-D1A5-46BD-B8B0-43D4822536B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
